@@ -1,0 +1,29 @@
+{
+  "name": "nxuid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/websocket.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx --watch ./server/websocket.ts",
+    "build": "npx tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "dockerode": "^4.0.7",
+    "fast-glob": "^3.3.3",
+    "node-color-log": "^13.0.3",
+    "p-limit": "^6.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.42",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
