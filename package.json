@@ -19,10 +19,12 @@
     "fast-glob": "^3.3.3",
     "node-color-log": "^13.0.3",
     "p-limit": "^6.2.0",
+    "pg": "^8.16.3",
     "ws": "^8.18.3"
   },
   "devDependencies": {
     "@types/dockerode": "^3.3.42",
+    "@types/pg": "^8.15.5",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   }
