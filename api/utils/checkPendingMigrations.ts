@@ -17,6 +17,7 @@ const connector = new DatabaseConnector();
 export default class CheckPendingMigrations extends Handler<Input, Output> {
     async execute({ basePath }: Input): Promise<HandlerResponse<Output>> {
         try {
+            console.log('basepath recebido:', basePath);
             const suitePath = path.join(basePath, 'sources', 'nx-suite-fullbackend');
             const migrationsPath = path.join(suitePath, 'migrations', 'main');
 
